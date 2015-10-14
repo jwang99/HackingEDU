@@ -1,0 +1,9 @@
+How to create a app that runs a JApplet-Mac OS X only(Sorry Jasmine xD)
+	1. Open Automator(/Applications/Utilities/Automator.app)
+	2. Select Application
+	3. Go to the textbox that contains a Search icon and "Name"
+	4. Search "Run Shell Script"
+	5. Drag and Drop that "action" into the workflow
+	6. Enter "cd ~/Applications/Run.app/Content/<File_Name>.java"
+	7. Enter "javac <File_Name>.java"
+	8. Enter "appletviewer <html_File_Name>.html"
